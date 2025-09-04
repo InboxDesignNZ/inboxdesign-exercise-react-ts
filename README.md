@@ -13,7 +13,7 @@ Please create the following features using TypeScript.
 ## Frontend
 1. Load the todo list 
 
-   Use user id `1` to load data. `https://dummyjson.com/todos/user/1`
+   > For your convenience, user id `100` has initial data.
 
 2. Add items.
 
