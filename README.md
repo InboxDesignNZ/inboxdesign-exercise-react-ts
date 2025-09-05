@@ -4,27 +4,37 @@ Please create the following features using TypeScript.
 
 ![Todo List Wireframe](./src/assets/wireframe.png)
 
-
 ## Backend
 
-  Use the dummy API. [https://dummyjson.com/docs/todos#todos-user](https://dummyjson.com/docs/todos#todos-user)
+  Use the dummy API. [https://dummyjson.com/docs/todos](https://dummyjson.com/docs/todos)
 
 
 ## Frontend
+
+> **‼️ All of the following features will NEED to send HTTP request to the API endpoints. Please read the requirement carefully.**
+
 1. Load the todo list 
 
-   > For your convenience, user id `100` has initial data.
+   [https://dummyjson.com/docs/todos#todos-user](https://dummyjson.com/docs/todos#todos-user)
+
+   For your convenience, user id `100` has initial data.
 
 2. Add items.
 
+   [https://dummyjson.com/docs/todos#todos-add](https://dummyjson.com/docs/todos#todos-add)
+
 3. Complete items.
 
+   [https://dummyjson.com/docs/todos#todos-update](https://dummyjson.com/docs/todos#todos-update)
+
 4. Delete items.
+
+   [https://dummyjson.com/docs/todos#todos-delete](https://dummyjson.com/docs/todos#todos-delete)
 
 
 ## Notes
 
-- All read, delete, update requests will not affect the server data. Use the state management to simulate the results.
+- All delete, update requests will not affect the dummy API data. Use the state management to simulate the front-end results when the API returns successful results.
 
 - All actions should have clear feedbacks and error handling.
 
