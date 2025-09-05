@@ -19,22 +19,22 @@ Please create the following features using TypeScript.
 
    For your convenience, user id `100` has initial data.
 
-2. Add items.
+2. Add items
 
    [https://dummyjson.com/docs/todos#todos-add](https://dummyjson.com/docs/todos#todos-add)
 
-3. Complete items.
+3. Complete items
 
    [https://dummyjson.com/docs/todos#todos-update](https://dummyjson.com/docs/todos#todos-update)
 
-4. Delete items.
+4. Delete items
 
    [https://dummyjson.com/docs/todos#todos-delete](https://dummyjson.com/docs/todos#todos-delete)
 
 
 ## Notes
 
-- All delete, update requests will not affect the dummy API data. Use the state management to simulate the front-end results when the API returns successful results.
+- `POST`, `PUT` and `DELETE` requests will not affect the dummy API data. Use the state management to simulate the front-end results when the API returns successful results.
 
 - All actions should have clear feedbacks and error handling.
 
